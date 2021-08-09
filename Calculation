@@ -1,0 +1,16 @@
+num1=int(input("enter the first number:"))
+num2=int(input("enter the second number:"))
+print("choose the calculation")
+print("addition = 1; subtraction = 2; multiplication = 3; division = 4")
+calculation=int(input("enter the calculation:"))
+
+if (calculation == 1):
+	print("the answer is ",num1+num2)
+elif (calculation == 2):
+	print("the answer is ",num1-num2)
+elif (calculation == 3):
+	print("the answer is ",num1*num2)
+elif (calculation == 4):
+	print("The answer is ",num1/num2)
+else:
+	print(" Pls enter the correct number")
